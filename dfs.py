@@ -20,7 +20,7 @@ def dfs(root):
     return visited
 
 if __name__ == "__main__":
-    root = TreeNode(1)
+    root = TreeNode(1)   
     child1 = TreeNode(2)
     child2 = TreeNode(3)
     child3 = TreeNode(4)
