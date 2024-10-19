@@ -1,7 +1,6 @@
-from typing import Dict
+#from typing import Dict
 
-
-def bfs(graph: Dict, node: str) -> None:
+def bfs(graph, node: str) -> None:
     queue = []
     visited = []
     visited.append(node)

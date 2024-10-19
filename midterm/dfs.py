@@ -1,5 +1,3 @@
-#from typing import List, Dict
-
 
 def dfs(graph, start, stack):
     visited = []
