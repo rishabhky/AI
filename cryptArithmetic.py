@@ -1,5 +1,5 @@
 from itertools import permutations
-
+    
 def is_valid_solution(word1,word2,result,mapping):
     def word_to_number(word):
         return sum(mapping[letter]*(10**i)for i,letter in enumerate(reversed(word)))

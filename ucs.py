@@ -15,7 +15,7 @@ def uniform_cost_search(start_node, goal_node, graph):
         for neighbor, cost in graph[current_node].items():
             if neighbor not in explored:
                 new_cost=current_cost+cost
-                frontier.put((new_cost,neighbor)) 
+                frontier.put((new_cost,neighbor))
 
     return "Goal not reachable"
 
